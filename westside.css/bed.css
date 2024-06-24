@@ -1,0 +1,348 @@
+*{
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+@media(max-width:476px){
+    .col-xs-1 {flex: 8.33%;}
+    .col-xs-2 {flex: 16.66%;}
+    .col-xs-3 {flex: 25%;}
+    .col-xs-4 {flex: 33.33%;}
+    .col-xs-5 {flex: 41.66%;}
+    .col-xs-6 {flex: 50%;}
+    .col-xs-7 {flex: 58.33%;}
+    .col-xs-8 {flex: 66.66%;}
+    .col-xs-9 {flex: 75%;}
+    .col-xs-10 {flex: 83.33%;}
+    .col-xs-11 {flex: 91.66%;}
+    .col-xs-12 {flex: 100%;}
+}
+@media(min-width:993px){
+    .position{
+       
+        display: none;
+    }
+}
+@media(max-width:992px){
+    .position{
+       position: fixed;
+        display: block;
+        z-index: 99;
+        background-color: #fff;
+        bottom: 0%;
+        left: 6%;
+       padding: 0px 10px;
+    }
+}
+@media(max-width:768px){
+    .position{
+        position: fixed;
+         display: block;
+         z-index: 99;
+         background-color: #fff;
+         margin: auto;
+        padding: 0px 10px;
+        left: 6%;
+     }
+}
+@media(max-width:575px){
+    .position{
+        position: sticky;
+         display: block;
+         z-index: 99;
+         background-color: #fff;
+         bottom: 0;
+       
+        padding: 5px 10px;
+     }
+     .form-control1{
+        display: none;
+     }
+     
+     .d-inline{
+        display: none !important;
+    }
+    .icon1{
+        display: none !important;
+    }
+    .logo{
+       margin: auto !important;
+        display:  block !important;
+    }
+    .m-set{
+       
+        margin: 10px 10px !important;
+    }
+    .sec-d-none{
+        display: none;
+    }
+    .menu2{
+        display: none;
+    }
+    input{
+        border: none;
+       width: 300px !important;
+     margin: auto;
+     display: block;
+    }
+}
+@media(max-width:476px){
+    .d-inline{
+        display: none !important;
+    }
+    .icon1{
+        display: none !important;
+    }
+    .logo{
+        margin: auto !important;
+        display:  block !important;
+    }
+    .menu2{
+        display: none;
+    }
+    .decoration{
+        font-size: 10px;
+        margin: 0 0;
+    }
+    .ic1{
+        font-size: 12px;
+    }
+    .ic2{
+        font-size: 12px;  
+    }
+    .ic3{
+        font-size: 12px;
+    }
+    .ic4{
+        font-size: 12px;
+    }
+    input{
+        border: none;
+       width: 300px !important;
+     margin: auto;
+     display: block;
+    }
+    .position{
+        margin: auto;
+        display: block;
+    }
+}
+.card-img{
+    cursor: pointer;
+}
+.ic-set{
+    letter-spacing: 15px;
+    transition: all 0.5 ease-in;
+}
+.ic-set:hover{
+    margin-left: 10px;
+   
+}
+.menu2{
+    list-style: none;
+    margin: 0px 0;
+    padding: 0;
+}
+.menu2 li{
+    display: inline-block;
+    margin: 10px 10px 0 0;
+}
+.menu2  li a{
+    text-decoration: none;
+    color: #000;
+    margin: 10px 10px;
+    font-size: 14px;
+    transition: all 0.5s ease-in-out;
+}
+.menu2 li a:hover{
+   text-decoration: underline;
+    transition: all 0.5s ease-in-out;
+}
+.menu1{
+    list-style: none;
+    margin: 50px 0;
+    padding: 0;
+}
+.menu1 li{
+    display: block;
+    margin: 30px 10px;
+    text-align: start;
+    
+}
+.menu1 li a{
+    text-decoration: none;
+    color: #000;
+    margin: 10px 10px;
+    font-size: 17px;
+    
+}
+
+.icon2::before{
+    font-size: 22px;
+    margin-top: 10px;
+    display: inline;
+    display: flex;
+}
+
+.border4{
+    border-bottom: 1px solid #e7e7e7 !important;
+}
+.form-control1{
+    border-radius: 30px !important;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    width: 350px;
+    margin-top: 10px;
+}
+.form-control1:focus{
+    outline: none;
+}
+
+.btn-set{
+    border: none;
+    font-size: 22px;
+    background-color: #fff;
+   
+}
+.about del{
+    color: #969595;
+    font-size: 15px;
+}
+.about
+{
+    color: #f30000;
+    font-size: 15px;
+}
+.card-header{
+    color: #969595;
+    background-color: #fff;
+    font-size: 12px;
+}
+.card-text{
+    font-size: 14px;
+}
+p{
+    font-weight: 400;
+    font-size: 15px;
+   word-spacing: 1px;
+}
+.card{
+    border: none;
+}
+.d-block{
+    transition: all 1.5s ease;
+    cursor: pointer;
+   border: none;
+}
+.d-block:hover{
+
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(1.2);
+    overflow: hidden;
+}
+.footer-info{
+    font-size: 18px;
+}
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li{
+    display: block;
+    margin-bottom: 10px;
+}
+.menu li a{
+    text-decoration: none;
+    color: #656565;
+    font-size: 15px;
+}
+.menu li a:hover{
+    border-bottom: 1px solid #000;
+    color: #000;
+}
+.span { 
+    color: #000 !important;
+}
+.border1{
+    border-top: 1px solid #e7e7e7 !important;
+    padding-bottom: 20px;
+}
+.text-col-center{
+    text-align: center;
+    padding-top: 50px;
+}
+/* input{
+    border: none;
+    margin-top: 20px;
+} */
+.btn{
+    padding: 10px 87px;
+    margin-top: 20px;
+}
+.border2{
+    border-top: 1px solid #e7e7e7 !important;
+    padding-top: 30px;
+    padding-bottom: 50px;
+} 
+.decoration{
+    text-decoration: none;
+    color: #656565;
+    font-size: 12px;
+    margin: 10px;
+}
+.decoration:hover{
+    border-bottom: 1px solid #000;
+    color: #000;
+}
+.ic1{
+   color: #656565; 
+   margin: 5px;
+   transition: 1s ease-in;
+   font-size: 18px;
+}
+.ic1:hover{
+    border-radius: 30px;
+    background-color: #7575c2;
+    padding: 10px 10px;
+    transition: 1s ease-in;
+    color: #fff;
+}
+.ic2{
+    color: #656565; 
+    margin: 5px;
+    transition: 1s ease-in;
+    font-size: 18px;
+ }
+ .ic2:hover{
+    border-radius: 30px;
+    background-color: blue;
+    padding: 10px 10px;
+    transition: 1s ease-in;
+    color: #fff;
+}
+ .ic3{
+    color: #656565; 
+    margin: 5px;
+    transition: 1s ease-in;
+    font-size: 18px;
+ }
+ .ic3:hover{
+    border-radius: 30px;
+    background-color: blueviolet;
+    padding: 10px 10px;
+    transition: 1s ease-in;
+    color: #fff;
+}
+ .ic4{
+    color: #656565; 
+    margin: 5px;
+    transition: 1s ease-in;
+    font-size: 18px;
+ }
+ .ic4:hover{
+    border-radius: 30px;
+    background-color: red;
+    padding: 10px 10px;
+    transition: 1s ease-in;
+    color: #fff;
+}
